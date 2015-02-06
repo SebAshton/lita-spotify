@@ -7,7 +7,6 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{A lita handler for playing music with Spotify.}
   spec.homepage      = "https://github.com/milo-ft/lita-spotify"
   spec.license       = "MIT"
-  spec.metadata      = { "lita_plugin_type" => "handler" }
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
